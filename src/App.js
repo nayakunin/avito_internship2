@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import CardContainer from './components/CardContainer';
+import CardContainer from './components/CardContainer/CardContainer';
 import Popup from './components/Popup/Popup';
 
 
