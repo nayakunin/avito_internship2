@@ -1,0 +1,52 @@
+.card {
+  width: 500px;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+.card__image-placeholder {
+  background-color: rgb(223, 223, 223);
+  width: 240px;
+  height: 180px;
+}
+
+.card__img {
+  border-radius: 5px;
+}
+
+.card__block_right {
+  position: relative;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card__address {
+  color: rgb(105, 105, 105);
+}
+
+.card__price {
+  position: absolute;
+  bottom: 0;
+}
+
+.card__open-menu {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+}
+
+
+
