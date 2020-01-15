@@ -7,7 +7,7 @@ function Popup(props) {
   const popupWindow = React.createRef();
   const popupContent = React.createRef();
 
-  const popup = props.content;
+  const popup = props.content[0];
 
   const handleClose = (event) => {
     const target = event.target;
