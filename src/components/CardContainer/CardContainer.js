@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import './CardContainer.css';
 import Card from '../Card/Card';
 
-function CardContainer() {
+function CardContainer(props) {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -16,6 +16,7 @@ function CardContainer() {
             address={elem.address}
             title={elem.title}
             price={elem.price}
+            handlePopupOpen={props.handlePopupOpen}
           />
         );
       }))
