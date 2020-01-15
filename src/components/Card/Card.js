@@ -1,16 +1,18 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import './Card.css';
-import Popup from '../Popup/Popup';
 
 function Card(props) {
-  const [isOpen, setIsOpem] = useState(false);
-  
-  useEffect(() => {
 
-  }, [isOpen])
+  const handleClick = (event) => {
+    fetch(`http://134.209.138.34/item/${props.id}`)
+      .then((response) => response.json())
+      .then((cardContent) => {
+        props.handlePopupOpen(cardContent);
+      })
+  }
 
   return (
-    <div className="card" onClick={isOpen}>
+    <div className="card" onClick={handleClick}>
       <div className="card__image-placeholder">
         <img src={props.url} alt="Изображение недвижимости" className="card__img"/>
       </div>
