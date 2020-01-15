@@ -27,7 +27,7 @@ function CardContainer(props) {
 
 
   return (
-    <div className="card-conrainer">
+    <div className="card-container">
       {cards}
     </div>
   )
