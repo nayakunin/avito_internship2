@@ -9,6 +9,8 @@
   justify-content: center;
   background-color: rgba(0,0,0,0.7);
   font-family: 'Roboto', sans-serif;
+
+  cursor: pointer;
 }
 
 .popup__content {
@@ -23,6 +25,8 @@
   gap: 15px;
 
   line-height: 20px;
+
+  cursor: default;
 }
 
 .popup__close-btn {
@@ -30,6 +34,8 @@
   z-index: 1;
   top: 10px;
   right: 10px;
+
+  cursor: pointer;
 }
 
 .popup__img-container {
@@ -55,6 +61,8 @@
   width: 30px;
   height: 20px;
   bottom: 50%;
+
+  cursor: pointer;
 }
 
 .img-container__btn_left {
@@ -107,6 +115,7 @@
 .popup__price {
   margin-bottom: 20px;
 }
+
 @media only screen and (max-width: 550px) {
   .popup__content {
     grid-template-rows: 50% 50%;

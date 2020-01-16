@@ -19,6 +19,7 @@
 
 .card__img {
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .card__text {
@@ -51,6 +52,7 @@
   height: 20px;
   bottom: 0;
   right: 0;
+  cursor: pointer;
   transition: fill ease-in-out .3s, right ease-in-out .3s;
 }
 
