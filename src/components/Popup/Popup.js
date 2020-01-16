@@ -51,9 +51,9 @@ function Popup(props) {
         <div className="popup__text">
           <h2 className="popup__title">{popup.title}</h2>
           <h3 className="popup__address">{popup.address}</h3>
-          <p className="popup__description">{popup.description}</p>
-          <p className="popup__seller-name">{popup.sellerName}</p>
           <p className="popup__price">{popup.price}</p>
+          <p className="popup__description"><span className="popup__description-label">Описание: </span>{popup.description}</p>
+          <p className="popup__seller-name">{popup.sellerName}</p>
         </div>
         <div className="popup__img-container img-container">
           <img
