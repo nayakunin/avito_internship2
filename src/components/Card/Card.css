@@ -29,6 +29,11 @@
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 10px;
+  transition: color ease-in-out .3s;
+}
+
+.card:hover .card__title {
+  color: lightskyblue;
 }
 
 .card__address {
@@ -46,6 +51,12 @@
   height: 20px;
   bottom: 0;
   right: 0;
+  transition: fill ease-in-out .3s, right ease-in-out .3s;
+}
+
+.card:hover .card__open-menu {
+  fill: lightskyblue;
+  right: 5px;
 }
 
 @media only screen and (max-width: 550px) {
