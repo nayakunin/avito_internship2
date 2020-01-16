@@ -19,7 +19,7 @@
   border-radius: 15px;
 
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 3fr;
   gap: 15px;
 }
 
@@ -72,10 +72,10 @@
   padding-bottom: 10px;
 }
 
-
-
 .popup__text {
   position: relative;
+  max-height: 70vh;
+  overflow-y: scroll;
 }
 
 .popup__title {
@@ -89,18 +89,11 @@
   margin-bottom: 30px;
 }
 
-.popup__price {
-  position: absolute;
-  bottom: 0;
-}
-
 .popup__description {
   line-height: 20px;
   margin-bottom: 30px;
 }
 
 .popup__seller-name {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  margin-bottom: 10px;
 }
