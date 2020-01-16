@@ -17,6 +17,7 @@ function App() {
 
   const handlePopupClose = () => {
     setPopupIsOpen(false);
+    setPopup(null);
   }
 
   useEffect(() => {
