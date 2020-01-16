@@ -23,7 +23,7 @@ function CardContainer(props) {
       }))
       .then((result) => setCards(result))
       .catch((err) => new Error(err))
-  }, [])
+  })
 
 
   return (
