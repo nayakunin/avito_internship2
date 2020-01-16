@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/avito_internship2/static/css/main.9d0ed452.chunk.css",
+    "main.js": "/avito_internship2/static/js/main.577fd3d5.chunk.js",
+    "main.js.map": "/avito_internship2/static/js/main.577fd3d5.chunk.js.map",
+    "runtime-main.js": "/avito_internship2/static/js/runtime-main.a1b54c15.js",
+    "runtime-main.js.map": "/avito_internship2/static/js/runtime-main.a1b54c15.js.map",
+    "static/js/2.fab4fb21.chunk.js": "/avito_internship2/static/js/2.fab4fb21.chunk.js",
+    "static/js/2.fab4fb21.chunk.js.map": "/avito_internship2/static/js/2.fab4fb21.chunk.js.map",
+    "index.html": "/avito_internship2/index.html",
+    "precache-manifest.8e2b26b659726ea3e7514125e59e65a4.js": "/avito_internship2/precache-manifest.8e2b26b659726ea3e7514125e59e65a4.js",
+    "service-worker.js": "/avito_internship2/service-worker.js",
+    "static/css/main.9d0ed452.chunk.css.map": "/avito_internship2/static/css/main.9d0ed452.chunk.css.map",
+    "static/js/2.fab4fb21.chunk.js.LICENSE": "/avito_internship2/static/js/2.fab4fb21.chunk.js.LICENSE",
+    "static/media/Arrow.6b2049e3.svg": "/avito_internship2/static/media/Arrow.6b2049e3.svg",
+    "static/media/Close.6092516e.svg": "/avito_internship2/static/media/Close.6092516e.svg",
+    "static/media/open-menu.6b2049e3.svg": "/avito_internship2/static/media/open-menu.6b2049e3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1b54c15.js",
+    "static/js/2.fab4fb21.chunk.js",
+    "static/css/main.9d0ed452.chunk.css",
+    "static/js/main.577fd3d5.chunk.js"
+  ]
+}
