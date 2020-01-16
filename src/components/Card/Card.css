@@ -4,9 +4,8 @@
   grid-template-columns: 240px 1fr;
   gap: 15px;
   padding: 10px;
-  margin-top: 10px;
-  margin-right: 10px;
   border-radius: 10px;
+  margin-top: 10px;
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
 }
@@ -15,13 +14,14 @@
   background-color: rgb(223, 223, 223);
   width: 240px;
   height: 180px;
+  margin: auto;
 }
 
 .card__img {
   border-radius: 5px;
 }
 
-.card__block_right {
+.card__text {
   position: relative;
 }
 
@@ -48,5 +48,22 @@
   right: 0;
 }
 
-
+@media only screen and (max-width: 550px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .card__text {
+    width: 240px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .card__price {
+    position: relative;
+    margin-top: 10px;
+  }
+}
 

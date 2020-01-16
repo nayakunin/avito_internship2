@@ -17,7 +17,7 @@ function Card(props) {
       <div className="card__image-placeholder card__block_left" onClick={handleClick}>
         <img src={props.url} alt="Изображение недвижимости" className="card__img"/>
       </div>
-      <div className="card__block_right">
+      <div className="card__text">
         <h2 className="card__title">{props.title}</h2>
         <p className="card__address">{props.address}</p>
         <h3 className="card__price">{props.price}</h3>
