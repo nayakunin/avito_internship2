@@ -21,6 +21,8 @@
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 15px;
+
+  line-height: 20px;
 }
 
 .popup__close-btn {
@@ -90,7 +92,6 @@
 }
 
 .popup__description {
-  line-height: 20px;
   margin-bottom: 30px;
 }
 
