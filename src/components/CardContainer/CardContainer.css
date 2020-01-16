@@ -1,7 +1,14 @@
 .card-container {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 520px);
+  gap: 10px;
   justify-content: center;
   background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 550px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
 }
